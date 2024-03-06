@@ -24,3 +24,7 @@ Route::get('login', function () {
 Route::get('inventory', function () {
     return view('inventory');
 });
+
+Route::get('profil', function () {
+    return view('profil');
+});
